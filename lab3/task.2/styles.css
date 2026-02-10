@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+}
+
+.head {
+  background: black;
+  color: gray;
+  padding: 14px;
+  text-align: start;
+}
+
+.h2 {
+  margin-left: 18px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+}
+
+.titlee {
+  font-size: 40px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input {
+  flex: 1;
+  padding: 14px 15px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.list button {
+  padding: 14px 20px;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #eee;
+  gap: 15px;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-list li span {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-list li button {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.todo-list li button:hover {
+  transform: scale(1.2);
+}
