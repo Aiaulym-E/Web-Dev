@@ -1,0 +1,32 @@
+.category-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.category-list button {
+  padding: 20px 40px;
+  font-size: 16px;
+  border: 2px solid #67d77b;
+  border-radius: 30px;
+  background: white;
+  color: #5fd281;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.main-title {
+  text-align: center;
+  font-size: 48px;
+  color: #cedb5f;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.category-list button.selected {
+  background: #9dd396;
+  color: white;
+}
